@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:template/features/auth/controllers/signin_controller.dart';
 
-class SigninScreen extends StatelessWidget {
-  const SigninScreen({super.key});
+class SignInScreen extends GetView<SignInController> {
+  const SignInScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(body: Center(child: Text(controller.name.value)));
   }
 }

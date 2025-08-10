@@ -1,3 +1,5 @@
 import 'package:get/get.dart';
 
-class SigninController extends GetxController {}
+class SignInController extends GetxController {
+  RxString name = "hello".obs;
+}

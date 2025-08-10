@@ -7,7 +7,7 @@ class AppRoutes {
   static List<GetPage> pages = [
     GetPage(
       name: RoutesName.home,
-      page: () => SigninScreen(),
+      page: () => SignInScreen(),
       transition: Transition.rightToLeft,
       binding: SignInBinding()
     ),
